@@ -1,6 +1,6 @@
 # When Do Hierarchical Models Work in Panel Time Series?
 # A Noise-Corrected Diagnostic and Validation Benchmark
-Reproducibility bundle — KDD 2027 Datasets & Benchmarks submission.
+Reproducibility bundle for KDD 2027 Datasets & Benchmarks submission, Paper #291.
 
 Every number in the paper traces to a named file in `artifacts/`,
 each produced by a single canonical run of one script in `code/`.
