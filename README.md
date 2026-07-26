@@ -1,5 +1,4 @@
-# When Do Hierarchical Models Work in Panel Time Series?
-# A Noise-Corrected Diagnostic and Validation Benchmark
+# When Do Hierarchical Models Work in Panel Time Series? A Noise-Corrected Diagnostic and Validation Benchmark
 Reproducibility bundle for KDD 2027 Datasets & Benchmarks submission, Paper #291.
 
 Every number in the paper traces to a named file in `artifacts/`,
