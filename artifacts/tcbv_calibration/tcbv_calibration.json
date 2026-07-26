@@ -1,0 +1,102 @@
+{
+  "calibration": {
+    "bv_nc": {
+      "threshold": 0.12432582440858259,
+      "balanced_acc": 0.8026018099547512,
+      "auc": 0.8280542986425339
+    },
+    "tc_x_bvnc": {
+      "threshold": 3.174411133941803,
+      "balanced_acc": 0.8184389140271493,
+      "auc": 0.8574660633484162
+    },
+    "snr": {
+      "threshold": 0.4486961972636936,
+      "balanced_acc": 0.8670814479638009,
+      "auc": 0.9041289592760181
+    },
+    "tc_x_snr": {
+      "threshold": 36.298699670057445,
+      "balanced_acc": 0.7347285067873304,
+      "auc": 0.7870475113122172
+    }
+  },
+  "selected": "snr",
+  "vdem_groups": [
+    {
+      "group": "OECD",
+      "n_units_used": 28,
+      "n_excluded": 0,
+      "mean_Tc": 81.32142857142857,
+      "median_Tc": 86.0,
+      "entry_coverage": 1.0,
+      "bv_raw": 0.3703018629077043,
+      "noise_floor": 0.247462983696442,
+      "bv_nc": 0.2589962071911982,
+      "crc_raw": 0.1099443053878203,
+      "crc_nc": 0.0488482202711249,
+      "pred_cell": "B (Hierarchy)",
+      "snr": 1.046605853216834,
+      "tc_x_bvnc": 21.06194156336994,
+      "tc_x_snr": 85.11148313481182,
+      "sufficiency_met": true
+    },
+    {
+      "group": "Non-OECD non-SSA",
+      "n_units_used": 69,
+      "n_excluded": 2,
+      "mean_Tc": 43.56521739130435,
+      "median_Tc": 40.0,
+      "entry_coverage": 1.0,
+      "bv_raw": 0.6095954277091032,
+      "noise_floor": 0.3722080706881728,
+      "bv_nc": 0.4565389652341017,
+      "crc_raw": 0.1578249578296606,
+      "crc_nc": 0.0475961934341469,
+      "pred_cell": "B (Hierarchy)",
+      "snr": 1.2265692261589334,
+      "tc_x_bvnc": 19.88921926802478,
+      "tc_x_snr": 53.43575498309789,
+      "sufficiency_met": true
+    },
+    {
+      "group": "SSA",
+      "n_units_used": 35,
+      "n_excluded": 0,
+      "mean_Tc": 33.457142857142856,
+      "median_Tc": 32.0,
+      "entry_coverage": 1.0,
+      "bv_raw": 0.6014090627812996,
+      "noise_floor": 0.4035611871697461,
+      "bv_nc": 0.4162877869298623,
+      "crc_raw": 0.1500929300486768,
+      "crc_nc": 0.0464905970875145,
+      "pred_cell": "B (Hierarchy)",
+      "snr": 1.0315357377387313,
+      "tc_x_bvnc": 13.92779995699625,
+      "tc_x_snr": 34.51223853977298,
+      "sufficiency_met": true
+    }
+  ],
+  "empirical_outcome": [
+    {
+      "group": "Non-OECD non-SSA",
+      "n_obs": 147,
+      "gap_pB": -0.0353,
+      "hn_wins": 0.7823
+    },
+    {
+      "group": "OECD",
+      "n_obs": 84,
+      "gap_pB": -0.0953,
+      "hn_wins": 0.9643
+    },
+    {
+      "group": "SSA",
+      "n_obs": 105,
+      "gap_pB": 0.0069,
+      "hn_wins": 0.5333
+    }
+  ],
+  "geometry_caveat": "Study 7: N=5, C=20, balanced; V-Dem: N=10, C=28-69, unbalanced."
+}

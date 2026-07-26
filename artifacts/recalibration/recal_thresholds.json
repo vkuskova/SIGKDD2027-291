@@ -1,0 +1,22 @@
+{
+  "thresholds": {
+    "bv_raw": 0.21664011198902197,
+    "bv_nc": 0.08075065702820913,
+    "crc_raw": 0.1828827750631804,
+    "crc_nc": 0.07964332661865423
+  },
+  "recipe": {
+    "K_DIAG": 1,
+    "DOF_MIN": 5,
+    "normalise": "global_z",
+    "ols": "intercept",
+    "bv_nc": "DL_moment",
+    "crc_nc": "null_debias"
+  },
+  "seeds": {
+    "cal": 42,
+    "val": 90210
+  },
+  "R_cal": 50,
+  "R_val": 50
+}
