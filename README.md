@@ -24,8 +24,7 @@ studyM/            Sec 7.3-7.4; Fig 4 + per-arm table (appendix)
 paper_figures/     column-sized Figs 3-4
 ```
 
-## Run order and runtimes (Google Colab; set RECAL_BASE to run
-## locally against this repo's layout)
+## Run order and runtimes (Google Colab; set RECAL_BASE to run locally against this repo's layout)
 1. `recal_bv_nc.py`         CPU ~5 min   -> recalibration/
 2. `vdem_rediag.py`         CPU ~2 min   -> vdem_diagnostics/
 3. `tcbv_calibration.py`    CPU ~3 min   -> tcbv_calibration/
