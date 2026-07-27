@@ -75,5 +75,4 @@ formulas); the mixed-panel study seeds torch and is reproducible
 across processes. Scripts 3 and 7 embed hard verification gates
 against frozen/canonical artifacts and abort on mismatch.
 `sha256_manifest.txt` lists checksums for every file present at
-assembly; placeholders mark Drive-side canonical artifacts to be
-added before release.
+assembly.
